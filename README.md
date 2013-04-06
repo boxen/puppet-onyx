@@ -1,21 +1,16 @@
-# Template Puppet Module for Boxen
+# Onyx Puppet Module for Boxen
 
-An example of how we write Puppet modules for Boxen. Replace this
-paragraph with a short explanation of what the heck makes your module
-useful.
+Install [Onyx](http://www.titanium.free.fr/downloadonyx.php), a multifunction utility for Mac OS X which allows you to verify the startup disk and the structure of its System files, to run misc. tasks of system maintenance, to configure some hidden parameters of the Finder, Dock, QuickTime, Safari, Mail, iTunes, login window, Spotlight, and many of Apple’s applications, to delete caches, to remove a certain number of files and folders that may become cumbersome, and more.
 
 ## Usage
 
 ```puppet
-boxen::example { 'best example ever':
-  salutation => 'fam'
-}
+include onyx
 ```
 
 ## Required Puppet Modules
 
 * `boxen`
-* `anything-else`
 
 ## Development
 
