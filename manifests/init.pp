@@ -6,6 +6,6 @@
 class onyx {
   package { 'Onyx':
     provider => 'appdmg',
-    source   => 'http://joel.barriere.pagesperso-orange.fr/dl/108/OnyX.dmg',
+    source   => 'https://www.macupdate.com/download/11582/OnyX.dmg',
   }
 }
