@@ -3,11 +3,11 @@
 # Examples
 #
 #  include onyx
-class onyx {
+class onyx($version='2.8.3') {
 
-  package { 'Onyx-2.7.3':
+  package { "Onyx-${version}":
     provider => 'appdmg',
-    source   => 'https://dl.dropboxusercontent.com/s/vlzwuchby97e6t7/OnyX-2.7.3.dmg',
+    source   => "https://dl.dropboxusercontent.com/s/scsdh169ofhk6tx/OnyX-${version}.dmg",
   }
 
 }
